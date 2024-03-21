@@ -23,6 +23,7 @@ while saldo > 0:
 
     saldo = saldo * (1 + tasa / MESES_DEL_ANIO) - pago_mensual
     total_pagado = total_pagado + pago_mensual
+    print(str(cantidad_de_meses) + ' ' + str(total_pagado) + ' ' + str(round(saldo, 2)))
     cantidad_de_meses += 1
 
 print('Total pagado', round(total_pagado, 2))
