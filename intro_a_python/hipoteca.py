@@ -15,7 +15,6 @@ pago_extra = 1000
 def esta_entre_los_meses(mes):
     return pago_extra_mes_comienzo <= mes and mes <= pago_extra_mes_fin
 
-
 while saldo > 0:
     if esta_entre_los_meses(cantidad_de_meses):
         saldo -= PAGO_EXTRA
@@ -23,7 +22,12 @@ while saldo > 0:
 
     saldo = saldo * (1 + tasa / MESES_DEL_ANIO) - pago_mensual
     total_pagado = total_pagado + pago_mensual
-    print(str(cantidad_de_meses) + ' ' + str(total_pagado) + ' ' + str(round(saldo, 2)))
+
+    if saldo < 0:
+        total_pagado += saldo
+        saldo = 0
+
+    print('{} {:.2f} {:.2f}'.format(cantidad_de_meses, total_pagado, saldo))
     cantidad_de_meses += 1
 
 print('Total pagado', round(total_pagado, 2))
