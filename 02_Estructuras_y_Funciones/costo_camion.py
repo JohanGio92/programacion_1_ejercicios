@@ -1,4 +1,4 @@
-FILENAME = "camion.csv"
+FILENAME = "../data/camion.csv"
 
 def costo_camion(filename):
     cost = 0

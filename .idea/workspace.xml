@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="fixup!  ejercicio 2.7 y 2.13 buscar_precios.py diccionario_geringoso.py terminado">
-      <change afterPath="$PROJECT_DIR$/03_Contenedores_y_Errores/informe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 3.1 informe.py terminado">
+      <change beforePath="$PROJECT_DIR$/02_Estructuras_y_Funciones/buscar_precios.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Estructuras_y_Funciones/buscar_precios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Estructuras_y_Funciones/camion.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/camion.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Estructuras_y_Funciones/costo_camion.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Estructuras_y_Funciones/costo_camion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Estructuras_y_Funciones/precios.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/precios.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Contenedores_y_Errores/informe.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Contenedores_y_Errores/informe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,7 @@
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\02_Estructuras_y_Funciones" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\data" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios" />
     </key>
   </component>
@@ -107,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711045167310</updated>
       <workItem from="1711045171409" duration="12636000" />
-      <workItem from="1711105141717" duration="4674000" />
+      <workItem from="1711105141717" duration="5099000" />
     </task>
     <task id="LOCAL-00001" summary="ejercicio 1.8 adelanto">
       <option name="closed" value="true" />
@@ -245,7 +249,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711107241874</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ejericio 3.1 informe.py terminado">
+      <option name="closed" value="true" />
+      <created>1711110628227</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711110628227</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ejercicio 3.1 informe.py terminado">
+      <option name="closed" value="true" />
+      <created>1711110641474</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711110641474</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +300,9 @@
     <MESSAGE value="creando diccionario_geringoso.py" />
     <MESSAGE value="fixup!  ejercicio 2.7 buscar_precios.py terminado" />
     <MESSAGE value="fixup!  ejercicio 2.7 y 2.13 buscar_precios.py diccionario_geringoso.py terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup!  ejercicio 2.7 y 2.13 buscar_precios.py diccionario_geringoso.py terminado" />
+    <MESSAGE value="ejericio 3.1 informe.py terminado" />
+    <MESSAGE value="ejercicio 3.1 informe.py terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 3.1 informe.py terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711110474121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
