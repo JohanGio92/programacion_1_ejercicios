@@ -26,7 +26,27 @@ def leer_precios(filename):
 
     return prices
 
+def costo_camion(trucks):
+    costo_camion = 0
+    for truck in trucks:
+        costo_camion += truck["precio"] * truck["cajones"]
+    return costo_camion
+
+def costo_precios(trucks, prices):
+    costo_precios = 0
+    for truck in trucks:
+        for price in prices:
+            if truck['nombre'] in price:
+                costo_precios += price[truck['nombre']] * truck['cajones']
+
+    return costo_precios;
+
+def coste_total(truck, prices):
+    return costo_precios(truck, prices) - costo_camion(truck)
+
 truck = leer_camion('../data/camion.csv')
-print(truck)
 prices = leer_precios('../data/precios.csv')
-print(prices)
+
+print(f'costo del camion:  {costo_camion(truck)}')
+print(f'recaudacion de la venta:  {costo_precios(truck, prices)}')
+print(f'Hubo una ganancia de {coste_total(truck, prices):.2f}')
