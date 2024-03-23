@@ -26,6 +26,8 @@ def contar_ejemplares(trees):
 
 def obtener_alturas(trees, specieName):
     return [ float(tree['altura_tot']) for tree in trees if tree['nombre_com'] == specieName ]
+def obtener_inclinaciones(trees, specieName):
+    return [ float(tree['inclinacio']) for tree in trees if tree['nombre_com'] == specieName ]
 
 trees = leer_parque('../data/arbolado-en-espacios-verdes.csv', 'GENERAL PAZ')
 #pprint(trees)
