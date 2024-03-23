@@ -59,8 +59,9 @@ def imprimir_informe(reports):
     headers = ('Nombre', 'Cajones', 'Precio', 'Cambio')
     print('%10s %10s %10s %10s' % headers)
     print('---------- ---------- ---------- ----------')
-    for report in reports:
-        print('%10s %10d %10.2f %10.2f' % report)
+    for nombre, cajones, precio, cambio in reports:
+        precio = '$%.2f' % precio
+        print('%10s %10d %10s %10.2f' % (nombre, cajones, precio, cambio))
 
 trucks = leer_camion('../data/camion.csv')
 prices = leer_precios('../data/precios.csv')
