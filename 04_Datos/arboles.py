@@ -12,4 +12,10 @@ def leer_parque(filename, parkname):
 
     return parks
 
-pprint(leer_parque('../data/arbolado-en-espacios-verdes.csv', 'GENERAL PAZ'))
+def especies(trees):
+    return set([tree['nombre_com'] for tree in trees])
+
+
+trees = leer_parque('../data/arbolado-en-espacios-verdes.csv', 'GENERAL PAZ')
+#pprint(trees)
+pprint(especies(trees))

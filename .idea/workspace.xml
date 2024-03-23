@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="creando el archivo arboles.py y descargando el csv correspodiente">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 4.13 arboles.py terminado">
       <change beforePath="$PROJECT_DIR$/04_Datos/arboles.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_Datos/arboles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +166,7 @@
       <updated>1711045167310</updated>
       <workItem from="1711045171409" duration="12636000" />
       <workItem from="1711105141717" duration="32149000" />
-      <workItem from="1711161839336" duration="637000" />
+      <workItem from="1711161839336" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="ejercicio 1.8 adelanto">
       <option name="closed" value="true" />
@@ -425,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711159478089</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ejercicio 4.13 arboles.py terminado">
+      <option name="closed" value="true" />
+      <created>1711162651074</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1711162651074</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ejercicio 1.13 esfera.py terminado" />
     <MESSAGE value="creando geringoso.py" />
     <MESSAGE value="ejercicio 1.18 geringoso.py terminado" />
     <MESSAGE value="ejercicio 2.2 costo_camion.py terminado" />
@@ -468,7 +474,8 @@
     <MESSAGE value="ejercicio 4.11 tabla_informe.py terminado" />
     <MESSAGE value="ejercicio 4.12 tabla_informe.py terminado" />
     <MESSAGE value="creando el archivo arboles.py y descargando el csv correspodiente" />
-    <option name="LAST_COMMIT_MESSAGE" value="creando el archivo arboles.py y descargando el csv correspodiente" />
+    <MESSAGE value="ejercicio 4.13 arboles.py terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 4.13 arboles.py terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711154174534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
