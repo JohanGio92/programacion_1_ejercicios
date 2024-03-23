@@ -55,9 +55,12 @@ def hacer_informe(trucks, prices):
                 reports.append(tuple(truck.values()) + tuple(price.values()))
     return reports
 
+def imprimir_informe(reports):
+    for report in reports:
+        print('%10s %10d %10.2f %10.2f' % report)
+
 trucks = leer_camion('../data/camion.csv')
 prices = leer_precios('../data/precios.csv')
+reports = hacer_informe(trucks, prices)
 
-##pprint(trucks)
-##pprint(prices)
-pprint(hacer_informe(trucks, prices))
+imprimir_informe(reports)
