@@ -56,6 +56,9 @@ def hacer_informe(trucks, prices):
     return reports
 
 def imprimir_informe(reports):
+    headers = ('Nombre', 'Cajones', 'Precio', 'Cambio')
+    print('%10s %10s %10s %10s' % headers)
+    print('---------- ---------- ---------- ----------')
     for report in reports:
         print('%10s %10d %10.2f %10.2f' % report)
 
