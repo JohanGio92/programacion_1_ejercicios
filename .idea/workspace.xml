@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 4.17 arboles.py terminado">
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 4.18 y 4.19 arboles.py terminado">
+      <change afterPath="$PROJECT_DIR$/05_Listas/busqueda_en_listas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Datos/arboles.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_Datos/arboles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
   "keyToString": {
     "Python.arboles.executor": "Run",
     "Python.buscar_precios.executor": "Run",
+    "Python.busqueda_en_listas.executor": "Run",
     "Python.camion_commandline.executor": "Run",
     "Python.costo_camion.executor": "Run",
     "Python.diccionario_geringoso.executor": "Run",
@@ -169,7 +170,7 @@
       <workItem from="1711045171409" duration="12636000" />
       <workItem from="1711105141717" duration="32149000" />
       <workItem from="1711161839336" duration="4116000" />
-      <workItem from="1711464437119" duration="4570000" />
+      <workItem from="1711464437119" duration="6668000" />
     </task>
     <task id="LOCAL-00001" summary="ejercicio 1.8 adelanto">
       <option name="closed" value="true" />
@@ -459,7 +460,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711165968343</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="ejercicio 4.1o y 4.19 arboles.py terminado">
+      <option name="closed" value="true" />
+      <created>1711469655211</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1711469655211</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ejercicio 4.18 y 4.19 arboles.py terminado">
+      <option name="closed" value="true" />
+      <created>1711469664414</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1711469664414</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,8 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creando el archivo buscar_precios.py" />
-    <MESSAGE value=" ejercicio 2.13 buscar_precios.py terminado" />
     <MESSAGE value="fixup!  ejercicio 2.13 buscar_precios.py terminado" />
     <MESSAGE value="creando diccionario_geringoso.py" />
     <MESSAGE value="fixup!  ejercicio 2.7 buscar_precios.py terminado" />
@@ -502,7 +517,9 @@
     <MESSAGE value="ejercicio 4.14 arboles.py terminado" />
     <MESSAGE value="ejercicio 4.15 y 4.16 arboles.py terminado" />
     <MESSAGE value="ejercicio 4.17 arboles.py terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 4.17 arboles.py terminado" />
+    <MESSAGE value="ejercicio 4.1o y 4.19 arboles.py terminado" />
+    <MESSAGE value="ejercicio 4.18 y 4.19 arboles.py terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 4.18 y 4.19 arboles.py terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711154174534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
@@ -510,7 +527,7 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$solucion_de_errores.coverage" NAME="solucion_de_errores Coverage Results" MODIFIED="1711124720616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tablamult.coverage" NAME="tablamult Coverage Results" MODIFIED="1711159058949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$camion_commandline.coverage" NAME="camion_commandline Coverage Results" MODIFIED="1711127197309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711469313130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711469495485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711069514826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$hipoteca.coverage" NAME="hipoteca Coverage Results" MODIFIED="1711050537660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$esfera.coverage" NAME="esfera Coverage Results" MODIFIED="1711052316888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
@@ -519,5 +536,6 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$diccionario_geringoso.coverage" NAME="diccionario_geringoso Coverage Results" MODIFIED="1711107022976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$geringoso.coverage" NAME="geringoso Coverage Results" MODIFIED="1711053388838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$main.coverage" NAME="main Coverage Results" MODIFIED="1711105410214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$busqueda_en_listas.coverage" NAME="busqueda_en_listas Coverage Results" MODIFIED="1711476660159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_Listas" />
   </component>
 </project>
