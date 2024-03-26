@@ -29,9 +29,37 @@ def obtener_alturas(trees, specieName):
 def obtener_inclinaciones(trees, specieName):
     return [ float(tree['inclinacio']) for tree in trees if tree['nombre_com'] == specieName ]
 
-trees = leer_parque('../data/arbolado-en-espacios-verdes.csv', 'GENERAL PAZ')
+def especimen_mas_inclinado(trees):
+    species = especies(trees)
+    speciesInclinadas = []
+
+    for specie in species:
+        inclinaciones = obtener_inclinaciones(trees, specie)
+        speciesInclinadas.append( {specie: max(inclinaciones)} )
+
+    return speciesInclinadas
+
+def especie_promedio_mas_inclinada(trees):
+    species = especies(trees)
+    speciesPromedioInclinadas = {}
+
+    for specie in species:
+        inclinaciones = obtener_inclinaciones(trees, specie)
+        speciesPromedioInclinadas[specie] = statistics.mean(inclinaciones)
+
+    key, maxvalue = max(speciesPromedioInclinadas.items(), key = lambda x: x[1])
+    return {key: maxvalue}
+
+#trees = leer_parque('../data/arbolado-en-espacios-verdes.csv', 'GENERAL PAZ')
 #pprint(trees)
 #pprint(especies(trees))
 #pprint(contar_ejemplares(trees).most_common(5))
-pprint(max(obtener_alturas(trees, 'Jacarandá')))
-pprint(statistics.mean(obtener_alturas(trees, 'Jacarandá')))
+#pprint(max(obtener_alturas(trees, 'Jacarandá')))
+#pprint(statistics.mean(obtener_alturas(trees, 'Jacarandá')))
+#pprint(obtener_inclinaciones(trees, 'Jacarandá'))
+
+#trees = leer_parque('../data/arbolado-en-espacios-verdes.csv', 'CENTENARIO')
+#pprint(especimen_mas_inclinado(trees))
+
+# trees = leer_parque('../data/arbolado-en-espacios-verdes.csv', 'ANDES, LOS')
+# pprint(especie_promedio_mas_inclinada(trees))
