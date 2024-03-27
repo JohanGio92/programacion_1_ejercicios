@@ -9,5 +9,9 @@ def leer_parque(filename):
 
     return parks
 
+def alturas_del_arboles(trees):
+    return [float(tree['altura_tot']) for tree in trees]
+
 trees = leer_parque('../data/arbolado-en-espacios-verdes.csv')
-pprint(trees)
+# pprint(trees)
+pprint(alturas_del_arboles(trees))
