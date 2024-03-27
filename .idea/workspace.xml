@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 6.9 plotear_temperaturas.py terminada">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Aleatoreidad/arboles.py" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 6.10 arboleada.py terminada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Aleatoreidad/arboles.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_Aleatoreidad/arboles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,23 +179,7 @@
       <workItem from="1711105141717" duration="32149000" />
       <workItem from="1711161839336" duration="4116000" />
       <workItem from="1711464437119" duration="18190000" />
-      <workItem from="1711535970952" duration="9642000" />
-    </task>
-    <task id="LOCAL-00004" summary="ejercicio 1.11 hipoteca ajustado">
-      <option name="closed" value="true" />
-      <created>1711050723243</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1711050723243</updated>
-    </task>
-    <task id="LOCAL-00005" summary="creando el archivo rebotes.py">
-      <option name="closed" value="true" />
-      <created>1711051029181</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1711051029181</updated>
+      <workItem from="1711535970952" duration="10639000" />
     </task>
     <task id="LOCAL-00006" summary="ejericio 1.5 rebotes.py terminado">
       <option name="closed" value="true" />
@@ -574,7 +557,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711550165843</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="ejercicio 6.10 arboleada.py terminada">
+      <option name="closed" value="true" />
+      <created>1711551670813</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1711551670813</updated>
+    </task>
+    <task id="LOCAL-00054" summary="ejercicio 6.10 arboleada.py terminada">
+      <option name="closed" value="true" />
+      <created>1711551682509</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1711551682509</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,8 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio 4.9 tabla_informe.py terminado" />
-    <MESSAGE value="ejercicio 4.10 tabla_informe.py terminado" />
     <MESSAGE value="ejercicio 4.11 tabla_informe.py terminado" />
     <MESSAGE value="ejercicio 4.12 tabla_informe.py terminado" />
     <MESSAGE value="creando el archivo arboles.py y descargando el csv correspodiente" />
@@ -618,7 +615,9 @@
     <MESSAGE value="ejercicio 6.6 termometro.py terminada" />
     <MESSAGE value="ejercicio 6.8 termometro.py terminada" />
     <MESSAGE value="ejercicio 6.9 plotear_temperaturas.py terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6.9 plotear_temperaturas.py terminada" />
+    <MESSAGE value="ejercicio 6.10 arboles.py terminada" />
+    <MESSAGE value="ejercicio 6.10 arboleada.py terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6.10 arboleada.py terminada" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711154174534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
@@ -626,7 +625,7 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$solucion_de_errores.coverage" NAME="solucion_de_errores Coverage Results" MODIFIED="1711124720616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tablamult.coverage" NAME="tablamult Coverage Results" MODIFIED="1711159058949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$camion_commandline.coverage" NAME="camion_commandline Coverage Results" MODIFIED="1711127197309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711551615505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711552613383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711069514826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$hipoteca.coverage" NAME="hipoteca Coverage Results" MODIFIED="1711050537660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$esfera.coverage" NAME="esfera Coverage Results" MODIFIED="1711052316888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
