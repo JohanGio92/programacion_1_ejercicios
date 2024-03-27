@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 6.1 arboles.py terminada">
-      <change afterPath="$PROJECT_DIR$/06_Aleatoreidad/termometro.py" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 6.6 termometro.py terminada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Aleatoreidad/generala.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_Aleatoreidad/generala.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Aleatoreidad/termometro.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_Aleatoreidad/termometro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,15 +173,7 @@
       <workItem from="1711105141717" duration="32149000" />
       <workItem from="1711161839336" duration="4116000" />
       <workItem from="1711464437119" duration="18190000" />
-      <workItem from="1711535970952" duration="5473000" />
-    </task>
-    <task id="LOCAL-00001" summary="ejercicio 1.8 adelanto">
-      <option name="closed" value="true" />
-      <created>1711047517607</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1711047517607</updated>
+      <workItem from="1711535970952" duration="7365000" />
     </task>
     <task id="LOCAL-00002" summary="ejercicio 1.9 calculadora de adelantos">
       <option name="closed" value="true" />
@@ -552,7 +543,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711536939119</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ejercicio 6.1 generala.py terminada">
+      <option name="closed" value="true" />
+      <created>1711544963705</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1711544963705</updated>
+    </task>
+    <task id="LOCAL-00049" summary="ejercicio 6.2 generala.py terminada">
+      <option name="closed" value="true" />
+      <created>1711544978559</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1711544978559</updated>
+    </task>
+    <task id="LOCAL-00050" summary="ejercicio 6.6 termometro.py terminada">
+      <option name="closed" value="true" />
+      <created>1711545011559</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1711545011559</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,9 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creando el archivo solucion_de_errores.py" />
-    <MESSAGE value="ejericio 3.5 al 3.9 solucion_de_errores.py terminado" />
-    <MESSAGE value="creando el archivo camion_commandline.py" />
     <MESSAGE value="ejercicio 3.11 camion_commandline.py terminado" />
     <MESSAGE value="ejercicio 4.8 tabla_informe.py terminado" />
     <MESSAGE value="ejercicio 4.9 tabla_informe.py terminado" />
@@ -595,7 +607,10 @@
     <MESSAGE value="ejercicio 5.17 arboles.py terminado" />
     <MESSAGE value="ejercicio 5.18 arboles.py Preguntar al profe" />
     <MESSAGE value="ejercicio 6.1 arboles.py terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6.1 arboles.py terminada" />
+    <MESSAGE value="ejercicio 6.1 generala.py terminada" />
+    <MESSAGE value="ejercicio 6.2 generala.py terminada" />
+    <MESSAGE value="ejercicio 6.6 termometro.py terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6.6 termometro.py terminada" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711154174534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
