@@ -9,13 +9,19 @@ def leer_parque(filename):
 
     return parks
 
-def alturas_del_arboles(trees, speciesName):
-    return [float(tree['altura_tot']) for tree in trees if speciesName == tree['nombre_com']]
+def alturas_del_arboles(trees, specieName):
+    return [float(tree['altura_tot']) for tree in trees if specieName == tree['nombre_com']]
 
-def alturas_por_diametro_de_los_arboles(trees, speciesName):
-    return [ tuple( [float(tree['altura_tot']), float(tree['diametro']) ]) for tree in trees if speciesName == tree['nombre_com']]
+def alturas_por_diametro_de_los_arboles(trees, specieName):
+    return [( float(tree['altura_tot']), float(tree['diametro']) ) for tree in trees if specieName == tree['nombre_com']]
+
+def medidas_de_especies(trees, speciesName):
+    return  { tree['nombre_com']: (float(tree['altura_tot']), float(tree['diametro'])) for tree in trees if tree['nombre_com'] in speciesName }
 
 trees = leer_parque('../data/arbolado-en-espacios-verdes.csv')
 # pprint(trees)
-#pprint(alturas_del_arboles(trees, speciesName='Jacarandá'))
-pprint(alturas_por_diametro_de_los_arboles(trees, speciesName='Jacarandá'))
+# pprint(sum(alturas_del_arboles(trees, specieName='Jacarandá')))
+#pprint(alturas_por_diametro_de_los_arboles(trees, specieName='Jacarandá'))
+#pprint(alturas_por_diametro_de_los_arboles(trees, specieName='Eucalipto'))
+#pprint(alturas_por_diametro_de_los_arboles(trees, specieName='Palo borracho rosado'))
+#pprint(medidas_de_especies(trees, ['Eucalipto', 'Palo borracho rosado', 'Jacarandá']))
