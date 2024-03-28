@@ -1,7 +1,4 @@
-import csv
 import fileparse
-from collections import Counter
-from pprint import pprint
 def leer_camion(filename):
     return fileparse.parse_csv(filename, types=[str, int, float])
 
@@ -51,4 +48,4 @@ def informe_camion(camion_filename='../data/camion.csv', precios_filename='../da
     imprimir_informe(reports)
 
 
-informe_camion()
+#informe_camion()
