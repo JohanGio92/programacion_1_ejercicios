@@ -20,6 +20,6 @@ def costo_camion(trucks):
     return total(trucks)
 
 if __name__ == "__main__":
-    trucks = leer_camion('../data/camion.csv')
+    trucks = leer_camion('../data/fecha_camion.csv')
     pprint.pprint(trucks)
     pprint.pprint(f'costo del camion:  {costo_camion(trucks)}')

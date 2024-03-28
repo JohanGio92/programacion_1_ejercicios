@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 7.6 fileparse.py terminado">
-      <change afterPath="$PROJECT_DIR$/07_Organizacion/hipoteca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_Organizacion/informe_funciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_Organizacion/rebotes.py" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 7.8 informe_funciones.py terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_Organizacion/fileparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Organizacion/fileparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Datos/informe.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_Datos/costo_camion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="informe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="costo_camion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="programacion_1_ejercicios" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +125,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Datos/informe.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\04_Datos\costo_camion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.informe" />
+        <item itemvalue="Python.costo_camion" />
         <item itemvalue="Python.camion_commandline" />
       </list>
     </recent_temporary>
@@ -188,15 +185,7 @@
       <workItem from="1711464437119" duration="18190000" />
       <workItem from="1711535970952" duration="14856000" />
       <workItem from="1711586726806" duration="2610000" />
-      <workItem from="1711624299459" duration="6162000" />
-    </task>
-    <task id="LOCAL-00010" summary="ejercicio 1.18 geringoso.py terminado">
-      <option name="closed" value="true" />
-      <created>1711053463050</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1711053463050</updated>
+      <workItem from="1711624299459" duration="6978000" />
     </task>
     <task id="LOCAL-00011" summary="ejercicio 2.2 costo_camion.py terminado">
       <option name="closed" value="true" />
@@ -582,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711627958916</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="ejercicio 7.8 informe_funciones.py terminado">
+      <option name="closed" value="true" />
+      <created>1711633405331</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1711633405331</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +614,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio 4.13 arboles.py terminado" />
     <MESSAGE value="ejercicio 4.14 arboles.py terminado" />
     <MESSAGE value="ejercicio 4.15 y 4.16 arboles.py terminado" />
     <MESSAGE value="ejercicio 4.17 arboles.py terminado" />
@@ -642,7 +638,8 @@
     <MESSAGE value="ejercicio 6.11 arboleada.py terminada" />
     <MESSAGE value="ejercicio 6.13-6.18 figuritas.py terminada" />
     <MESSAGE value="ejercicio 7.6 fileparse.py terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 7.6 fileparse.py terminado" />
+    <MESSAGE value="ejercicio 7.8 informe_funciones.py terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 7.8 informe_funciones.py terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711154174534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
@@ -651,8 +648,8 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tablamult.coverage" NAME="tablamult Coverage Results" MODIFIED="1711159058949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$camion_commandline.coverage" NAME="camion_commandline Coverage Results" MODIFIED="1711127197309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711552776875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711069514826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse.coverage" NAME="fileparse Coverage Results" MODIFIED="1711632867351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711634167060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$hipoteca.coverage" NAME="hipoteca Coverage Results" MODIFIED="1711050537660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$esfera.coverage" NAME="esfera Coverage Results" MODIFIED="1711052316888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$rebotes.coverage" NAME="rebotes Coverage Results" MODIFIED="1711051805332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
