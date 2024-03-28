@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 6.11 arboleada.py terminada">
-      <change afterPath="$PROJECT_DIR$/06_Aleatoreidad/figuritas.py" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 6.13-6.18 figuritas.py terminada">
+      <change afterPath="$PROJECT_DIR$/07_Organizacion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Organizacion/fileparse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,42 +38,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.arboles.executor": "Run",
-    "Python.buscar_precios.executor": "Run",
-    "Python.busqueda_en_listas.executor": "Run",
-    "Python.camion_commandline.executor": "Run",
-    "Python.costo_camion.executor": "Run",
-    "Python.diccionario_geringoso.executor": "Run",
-    "Python.esfera.executor": "Run",
-    "Python.figuritas.executor": "Run",
-    "Python.generala.executor": "Run",
-    "Python.geringoso.executor": "Run",
-    "Python.hipoteca.executor": "Run",
-    "Python.informe.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.plotear_temperaturas.executor": "Run",
-    "Python.rebotes.executor": "Run",
-    "Python.solucion_de_errores.executor": "Run",
-    "Python.tabla_informe.executor": "Run",
-    "Python.tablamult.executor": "Run",
-    "Python.termometro.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "grid.search.filter.rows": "true",
-    "last_opened_file_path": "C:/Users/johan/PycharmProjects/programacion_1_ejercicios/06_Aleatoreidad",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.arboles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buscar_precios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.busqueda_en_listas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camion_commandline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.costo_camion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionario_geringoso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.esfera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.figuritas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fileparse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generala.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geringoso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hipoteca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.informe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotear_temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rebotes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.solucion_de_errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tabla_informe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tablamult.executor&quot;: &quot;Run&quot;,
+    &quot;Python.termometro.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;grid.search.filter.rows&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/johan/PycharmProjects/programacion_1_ejercicios/06_Aleatoreidad&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\06_Aleatoreidad" />
@@ -180,15 +182,9 @@
       <workItem from="1711105141717" duration="32149000" />
       <workItem from="1711161839336" duration="4116000" />
       <workItem from="1711464437119" duration="18190000" />
-      <workItem from="1711535970952" duration="13607000" />
-    </task>
-    <task id="LOCAL-00007" summary="creando el archivo esfera.py">
-      <option name="closed" value="true" />
-      <created>1711052008829</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1711052008829</updated>
+      <workItem from="1711535970952" duration="14856000" />
+      <workItem from="1711586726806" duration="2610000" />
+      <workItem from="1711624299459" duration="2397000" />
     </task>
     <task id="LOCAL-00008" summary="ejercicio 1.13 esfera.py terminado">
       <option name="closed" value="true" />
@@ -574,15 +570,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711552808712</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="ejercicio 6.13-6.18 figuritas.py terminada">
+      <option name="closed" value="true" />
+      <created>1711558361472</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1711558361472</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="98414c9a-738e-4180-9ab4-0946139d9b24" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="98414c9a-738e-4180-9ab4-0946139d9b24">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -593,7 +613,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio 4.12 tabla_informe.py terminado" />
     <MESSAGE value="creando el archivo arboles.py y descargando el csv correspodiente" />
     <MESSAGE value="ejercicio 4.13 arboles.py terminado" />
     <MESSAGE value="ejercicio 4.14 arboles.py terminado" />
@@ -618,7 +637,8 @@
     <MESSAGE value="ejercicio 6.10 arboles.py terminada" />
     <MESSAGE value="ejercicio 6.10 arboleada.py terminada" />
     <MESSAGE value="ejercicio 6.11 arboleada.py terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6.11 arboleada.py terminada" />
+    <MESSAGE value="ejercicio 6.13-6.18 figuritas.py terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6.13-6.18 figuritas.py terminada" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711154174534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
@@ -628,12 +648,13 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$camion_commandline.coverage" NAME="camion_commandline Coverage Results" MODIFIED="1711127197309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711552776875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711069514826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse.coverage" NAME="fileparse Coverage Results" MODIFIED="1711627781056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$hipoteca.coverage" NAME="hipoteca Coverage Results" MODIFIED="1711050537660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$esfera.coverage" NAME="esfera Coverage Results" MODIFIED="1711052316888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$rebotes.coverage" NAME="rebotes Coverage Results" MODIFIED="1711051805332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$generala.coverage" NAME="generala Coverage Results" MODIFIED="1711540727142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plotear_temperaturas.coverage" NAME="plotear_temperaturas Coverage Results" MODIFIED="1711550067469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$figuritas.coverage" NAME="figuritas Coverage Results" MODIFIED="1711558088588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$figuritas.coverage" NAME="figuritas Coverage Results" MODIFIED="1711558314782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tabla_informe.coverage" NAME="tabla_informe Coverage Results" MODIFIED="1711157440345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$diccionario_geringoso.coverage" NAME="diccionario_geringoso Coverage Results" MODIFIED="1711107022976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$geringoso.coverage" NAME="geringoso Coverage Results" MODIFIED="1711053388838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
