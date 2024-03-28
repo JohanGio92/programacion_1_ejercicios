@@ -1,6 +1,6 @@
 import csv
 
-def parse_csv(nombre_archivo, types = None, has_headers = True):
+def parse_csv(nombre_archivo, select = None, types = None, has_headers = True):
     '''
     Parsea un archivo CSV en una lista de registros.
     Se puede seleccionar sólo un subconjunto de las columnas, determinando el parámetro select, que debe ser una lista de nombres de las columnas a considerar.
@@ -12,11 +12,25 @@ def parse_csv(nombre_archivo, types = None, has_headers = True):
         if has_headers:
             encabezados = next(filas)
 
+        # Si se indicó un selector de columnas,
+        #    buscar los índices de las columnas especificadas.
+        # Y en ese caso achicar el conjunto de encabezados para diccionarios
+        if select:
+            indices = [encabezados.index(nombre_columna) for nombre_columna in select]
+            encabezados = select
+        else:
+            indices = []
+
         registros = []
         for fila in filas:
             if not fila:    # Saltear filas vacías
                 continue
-            # Convierto laFila al tipo especificado
+
+            # Filtrar la fila si se especificaron columnas
+            if indices:
+                fila = [fila[index] for index in indices]
+
+            # Convierto la Fila al tipo especificado
             if types:
                 fila = [type(value) for type, value in zip(types, fila[:len(types)])]
 
@@ -26,5 +40,3 @@ def parse_csv(nombre_archivo, types = None, has_headers = True):
 
     return registros
 
-camion = parse_csv('../data/precios.csv', [str, float], has_headers = False)
-print(camion)
