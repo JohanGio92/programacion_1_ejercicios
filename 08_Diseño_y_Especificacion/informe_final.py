@@ -1,10 +1,12 @@
 import fileparse
 def leer_camion(filename):
-    return fileparse.parse_csv(filename, types=[str, int, float])
+    with open(filename) as f:
+        return fileparse.parse_csv(filename, types=[str, int, float])
 
 def leer_precios(filename):
-    prices = fileparse.parse_csv(filename, types=[str, float], has_headers =False)
-    return [{price[0]: price[1]} for price in prices]
+    with open(filename) as f:
+        prices = fileparse.parse_csv(filename, types=[str, float], has_headers =False)
+        return [{price[0]: price[1]} for price in prices]
 def costo_camion(trucks):
     costo_camion = 0
     for truck in trucks:
