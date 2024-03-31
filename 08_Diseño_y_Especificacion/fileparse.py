@@ -2,7 +2,6 @@ import csv
 
 def parse_csv(nombre_archivo, select = None, types = None, has_headers = True, silence_errors = False):
 
-    assert has_headers
     '''
     Parsea un archivo CSV en una lista de registros.
     Se puede seleccionar sólo un subconjunto de las columnas, determinando el parámetro select, que debe ser una lista de nombres de las columnas a considerar.
@@ -51,6 +50,6 @@ def parse_csv(nombre_archivo, select = None, types = None, has_headers = True, s
 
     return registros
 
-
-camion = parse_csv('../data/missing.csv', types = [str, int, float], silence_errors=True)
-print(camion)
+if __name__ == '__main__':
+    camion = parse_csv('../data/missing.csv', types = [str, float], has_headers=True, silence_errors=True)
+    print(camion)

@@ -7,10 +7,11 @@ def rebotar(height, times):
 
 
 def main(parameters):
+    if len(parameters) != 3:
+        raise SystemExit(f'Uso adecuado: {parameters[0]} ' ' necesitas pasar los argumentos height y times')
+
     height = float(parameters[1])
     times = int(parameters[2])
-    if len(parameters) != 3:
-        raise SystemExit(f'Uso adecuado: {sys.argv[0]} ' ' necesitas pasar los argumentos height y times')
     rebotar(height, times)
 
 

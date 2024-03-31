@@ -40,12 +40,17 @@ def imprimir_informe(reports):
         precio = '$%.2f' % precio
         print('%10s %10d %10s %10.2f' % (nombre, cajones, precio, cambio))
 
-
 def informe_camion(camion_filename='../data/camion.csv', precios_filename='../data/precios.csv'):
     trucks = leer_camion(camion_filename)
     prices = leer_precios(precios_filename)
     reports = hacer_informe(trucks, prices)
     imprimir_informe(reports)
 
+def f_principal(parameters):
+    if len(parameters) != 3:
+        raise SystemExit(f'el nombre del archivo: {parameters[0]} necesita 2 parametros de nombre de arhivo cvs')
+    informe_camion(parameters[1], parameters[2])
 
-#informe_camion()
+if __name__ == '__main__':
+    import sys
+    f_principal(sys.argv)

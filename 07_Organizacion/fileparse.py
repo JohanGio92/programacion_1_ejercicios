@@ -40,3 +40,6 @@ def parse_csv(nombre_archivo, select = None, types = None, has_headers = True):
 
     return registros
 
+if __name__ == '__main__':
+    camion = parse_csv('../data/precios.csv', types=[str, float], has_headers=False)
+    print(camion)
