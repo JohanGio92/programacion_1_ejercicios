@@ -1,8 +1,8 @@
 import csv
 
-def parse_csv(nombre_archivo, select = None, types = None, has_headers = True):
+def parse_csv(nombre_archivo, select = None, types = None, has_headers = True, silence_errors = False):
 
-    assert has_headers and select
+    assert has_headers
     '''
     Parsea un archivo CSV en una lista de registros.
     Se puede seleccionar sólo un subconjunto de las columnas, determinando el parámetro select, que debe ser una lista de nombres de las columnas a considerar.
@@ -24,7 +24,11 @@ def parse_csv(nombre_archivo, select = None, types = None, has_headers = True):
             indices = []
 
         registros = []
+
+        i = 0
+
         for fila in filas:
+            i += 1
             if not fila:    # Saltear filas vacías
                 continue
 
@@ -34,7 +38,12 @@ def parse_csv(nombre_archivo, select = None, types = None, has_headers = True):
 
             # Convierto la Fila al tipo especificado
             if types:
-                fila = [type(value) for type, value in zip(types, fila[:len(types)])]
+                try:
+                    fila = [type(value) for type, value in zip(types, fila[:len(types)])]
+                except ValueError:
+                    if not silence_errors:
+                        print(f'Fila {i}: No puede convertir {fila}')
+                        print(f'Fila {i}: Motivo: invalid literal for int() with base 10: \'\'')
 
             # Armar el diccionario
             registro = dict(zip(encabezados, fila)) if has_headers else tuple(fila)
@@ -43,5 +52,5 @@ def parse_csv(nombre_archivo, select = None, types = None, has_headers = True):
     return registros
 
 
-camion = parse_csv("../data/camion.csv", select = ['nombre','precio'], has_headers=True)
+camion = parse_csv('../data/missing.csv', types = [str, int, float], silence_errors=True)
 print(camion)
