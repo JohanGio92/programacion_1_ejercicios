@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 8.1 fileparse.py terminado">
-      <change afterPath="$PROJECT_DIR$/data/missing.csv" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 8.2 y 8.3 fileparse.py terminado">
+      <change afterPath="$PROJECT_DIR$/08_Diseño_y_Especificacion/rebotes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Diseño_y_Especificacion/fileparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_Diseño_y_Especificacion/fileparse.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,51 +37,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.arboles.executor": "Run",
-    "Python.bbin.executor": "Run",
-    "Python.buscar_precios.executor": "Run",
-    "Python.busqueda_en_listas.executor": "Run",
-    "Python.camion_commandline.executor": "Run",
-    "Python.costo_camion.executor": "Run",
-    "Python.diccionario_geringoso.executor": "Run",
-    "Python.esfera.executor": "Run",
-    "Python.figuritas.executor": "Run",
-    "Python.fileparse.executor": "Run",
-    "Python.generala.executor": "Run",
-    "Python.geringoso.executor": "Run",
-    "Python.hipoteca.executor": "Run",
-    "Python.informe.executor": "Debug",
-    "Python.informe_funciones.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.plot_bbin_vs_bsec.executor": "Run",
-    "Python.plotear_busqueda_secuencial.executor": "Run",
-    "Python.plotear_temperaturas.executor": "Run",
-    "Python.rebotes.executor": "Run",
-    "Python.solucion_de_errores.executor": "Run",
-    "Python.tabla_informe.executor": "Run",
-    "Python.tablamult.executor": "Run",
-    "Python.termometro.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "grid.search.filter.rows": "true",
-    "last_opened_file_path": "C:/Users/johan/PycharmProjects/programacion_1_ejercicios/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.arboles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bbin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buscar_precios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.busqueda_en_listas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camion_commandline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.costo_camion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionario_geringoso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.esfera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.figuritas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fileparse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generala.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geringoso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hipoteca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.informe.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.informe_funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plot_bbin_vs_bsec.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotear_busqueda_secuencial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotear_temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rebotes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.solucion_de_errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tabla_informe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tablamult.executor&quot;: &quot;Run&quot;,
+    &quot;Python.termometro.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;grid.search.filter.rows&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/johan/PycharmProjects/programacion_1_ejercicios/08_Diseño_y_Especificacion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\data" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\08_Diseño_y_Especificacion" />
+      <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\data" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\07_Organizacion" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\06_Aleatoreidad" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\02_Estructuras_y_Funciones" />
@@ -92,7 +91,7 @@
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.rebotes">
     <configuration name="camion_commandline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="programacion_1_ejercicios" />
       <option name="ENV_FILES" value="" />
@@ -162,8 +161,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rebotes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programacion_1_ejercicios" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Diseño_y_Especificacion/rebotes.py" />
+      <option name="PARAMETERS" value="50 5" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rebotes" />
         <item itemvalue="Python.costo_camion" />
         <item itemvalue="Python.camion_commandline" />
       </list>
@@ -193,15 +216,8 @@
       <workItem from="1711624299459" duration="17433000" />
       <workItem from="1711666126253" duration="2801000" />
       <workItem from="1711741874335" duration="1154000" />
-      <workItem from="1711853169473" duration="3659000" />
-    </task>
-    <task id="LOCAL-00016" summary="fixup!  ejercicio 2.7 buscar_precios.py terminado">
-      <option name="closed" value="true" />
-      <created>1711107141913</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1711107141913</updated>
+      <workItem from="1711853169473" duration="5496000" />
+      <workItem from="1711885646045" duration="2136000" />
     </task>
     <task id="LOCAL-00017" summary="fixup!  ejercicio 2.7 y 2.13 buscar_precios.py diccionario_geringoso.py terminado">
       <option name="closed" value="true" />
@@ -587,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711854281568</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="ejercicio 8.2 y 8.3 fileparse.py terminado">
+      <option name="closed" value="true" />
+      <created>1711856960634</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1711856960634</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +646,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio 5.3 busqueda_en_listas.py terminado" />
     <MESSAGE value="ejercicio 5.4 y 5.5 busqueda_en_listas.py terminado" />
     <MESSAGE value="ejercicio 5.6 busqueda_en_listas.py terminado" />
     <MESSAGE value="ejercicio 5 arboles.py terminado" />
@@ -647,7 +670,8 @@
     <MESSAGE value="ejercicio 7.12 bbin.py terminado" />
     <MESSAGE value="ejercicio 7.17 plot_bbin_vs_bsec.py terminado" />
     <MESSAGE value="ejercicio 8.1 fileparse.py terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 8.1 fileparse.py terminado" />
+    <MESSAGE value="ejercicio 8.2 y 8.3 fileparse.py terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 8.2 y 8.3 fileparse.py terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711678386970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
@@ -655,7 +679,7 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tablamult.coverage" NAME="tablamult Coverage Results" MODIFIED="1711159058949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711634784070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plot_bbin_vs_bsec.coverage" NAME="plot_bbin_vs_bsec Coverage Results" MODIFIED="1711662214865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$rebotes.coverage" NAME="rebotes Coverage Results" MODIFIED="1711051805332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$rebotes.coverage" NAME="rebotes Coverage Results" MODIFIED="1711888936545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe_funciones.coverage" NAME="informe_funciones Coverage Results" MODIFIED="1711633338929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$generala.coverage" NAME="generala Coverage Results" MODIFIED="1711540727142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$figuritas.coverage" NAME="figuritas Coverage Results" MODIFIED="1711558314782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
@@ -667,7 +691,7 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$solucion_de_errores.coverage" NAME="solucion_de_errores Coverage Results" MODIFIED="1711124720616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$camion_commandline.coverage" NAME="camion_commandline Coverage Results" MODIFIED="1711127197309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711552776875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse.coverage" NAME="fileparse Coverage Results" MODIFIED="1711856823553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse.coverage" NAME="fileparse Coverage Results" MODIFIED="1711856936204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$esfera.coverage" NAME="esfera Coverage Results" MODIFIED="1711052316888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$hipoteca.coverage" NAME="hipoteca Coverage Results" MODIFIED="1711050537660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plotear_temperaturas.coverage" NAME="plotear_temperaturas Coverage Results" MODIFIED="1711550067469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
