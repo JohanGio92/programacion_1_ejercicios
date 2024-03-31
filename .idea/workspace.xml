@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 7.12 bbin.py terminado">
-      <change afterPath="$PROJECT_DIR$/07_Organizacion/plot_bbin_vs_bsec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_Organizacion/plotear_busqueda_secuencial.py" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 7.17 plot_bbin_vs_bsec.py terminado">
+      <change afterPath="$PROJECT_DIR$/08_Diseño_y_Especificacion/fileparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Diseño_y_Especificacion/informe_final.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     "Python.generala.executor": "Run",
     "Python.geringoso.executor": "Run",
     "Python.hipoteca.executor": "Run",
-    "Python.informe.executor": "Run",
+    "Python.informe.executor": "Debug",
     "Python.informe_funciones.executor": "Run",
     "Python.main.executor": "Run",
     "Python.plot_bbin_vs_bsec.executor": "Run",
@@ -70,7 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "grid.search.filter.rows": "true",
-    "last_opened_file_path": "C:/Users/johan/PycharmProjects/programacion_1_ejercicios/07_Organizacion",
+    "last_opened_file_path": "C:/Users/johan/PycharmProjects/programacion_1_ejercicios/08_Diseño_y_Especificacion",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\08_Diseño_y_Especificacion" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\07_Organizacion" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\data" />
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\06_Aleatoreidad" />
@@ -189,15 +190,10 @@
       <workItem from="1711464437119" duration="18190000" />
       <workItem from="1711535970952" duration="14856000" />
       <workItem from="1711586726806" duration="2610000" />
-      <workItem from="1711624299459" duration="16270000" />
-    </task>
-    <task id="LOCAL-00014" summary=" ejercicio 2.13 buscar_precios.py terminado">
-      <option name="closed" value="true" />
-      <created>1711106088330</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1711106088330</updated>
+      <workItem from="1711624299459" duration="17433000" />
+      <workItem from="1711666126253" duration="2801000" />
+      <workItem from="1711741874335" duration="1154000" />
+      <workItem from="1711853169473" duration="764000" />
     </task>
     <task id="LOCAL-00015" summary="creando diccionario_geringoso.py">
       <option name="closed" value="true" />
@@ -583,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711655617731</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="ejercicio 7.17 plot_bbin_vs_bsec.py terminado">
+      <option name="closed" value="true" />
+      <created>1711662352033</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1711662352033</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +622,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio 4.1o y 4.19 arboles.py terminado" />
     <MESSAGE value="ejercicio 4.18 y 4.19 arboles.py terminado" />
     <MESSAGE value="ejercicio 5.3 busqueda_en_listas.py terminado" />
     <MESSAGE value="ejercicio 5.4 y 5.5 busqueda_en_listas.py terminado" />
@@ -643,27 +646,28 @@
     <MESSAGE value="cambio informe.py por costo_camion.py en la 04_Datos" />
     <MESSAGE value="ejercicio 7.9 coste_camion.py terminado" />
     <MESSAGE value="ejercicio 7.12 bbin.py terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 7.12 bbin.py terminado" />
+    <MESSAGE value="ejercicio 7.17 plot_bbin_vs_bsec.py terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 7.17 plot_bbin_vs_bsec.py terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711154174534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711678386970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$buscar_precios.coverage" NAME="buscar_precios Coverage Results" MODIFIED="1711105462271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tablamult.coverage" NAME="tablamult Coverage Results" MODIFIED="1711159058949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711634784070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plot_bbin_vs_bsec.coverage" NAME="plot_bbin_vs_bsec Coverage Results" MODIFIED="1711662058524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plot_bbin_vs_bsec.coverage" NAME="plot_bbin_vs_bsec Coverage Results" MODIFIED="1711662214865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$rebotes.coverage" NAME="rebotes Coverage Results" MODIFIED="1711051805332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe_funciones.coverage" NAME="informe_funciones Coverage Results" MODIFIED="1711633338929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$generala.coverage" NAME="generala Coverage Results" MODIFIED="1711540727142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$figuritas.coverage" NAME="figuritas Coverage Results" MODIFIED="1711558314782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tabla_informe.coverage" NAME="tabla_informe Coverage Results" MODIFIED="1711157440345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$geringoso.coverage" NAME="geringoso Coverage Results" MODIFIED="1711053388838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$main.coverage" NAME="main Coverage Results" MODIFIED="1711105410214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$main.coverage" NAME="main Coverage Results" MODIFIED="1711853708884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$termometro.coverage" NAME="termometro Coverage Results" MODIFIED="1711549528803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plotear_busqueda_secuencial.coverage" NAME="plotear_busqueda_secuencial Coverage Results" MODIFIED="1711658478851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$solucion_de_errores.coverage" NAME="solucion_de_errores Coverage Results" MODIFIED="1711124720616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$camion_commandline.coverage" NAME="camion_commandline Coverage Results" MODIFIED="1711127197309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711552776875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse.coverage" NAME="fileparse Coverage Results" MODIFIED="1711632867351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse.coverage" NAME="fileparse Coverage Results" MODIFIED="1711854055660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$esfera.coverage" NAME="esfera Coverage Results" MODIFIED="1711052316888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$hipoteca.coverage" NAME="hipoteca Coverage Results" MODIFIED="1711050537660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plotear_temperaturas.coverage" NAME="plotear_temperaturas Coverage Results" MODIFIED="1711550067469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
