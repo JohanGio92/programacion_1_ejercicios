@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 8.7 y 8.8 informe_final.py y costo_camion.py terminado">
-      <change afterPath="$PROJECT_DIR$/08_Diseño_y_Especificacion/documentacion.py" afterDir="false" />
+    <list default="true" id="9cded40e-b9dc-4ee3-b9ee-cb8f5bcde997" name="Changes" comment="ejercicio 8.11 documentacion.py terminado">
+      <change afterPath="$PROJECT_DIR$/09_Pandas_y_matplotlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Pandas_y_matplotlib/introduccion_pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Pandas_y_matplotlib/plotear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Pandas_y_matplotlib/random_walk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/arbolado-publico-lineal-2017-2018.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/senos_y_cosenos.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,51 +42,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.arboles.executor": "Run",
-    "Python.bbin.executor": "Run",
-    "Python.buscar_precios.executor": "Run",
-    "Python.busqueda_en_listas.executor": "Run",
-    "Python.camion_commandline.executor": "Run",
-    "Python.costo_camion (1).executor": "Run",
-    "Python.costo_camion.executor": "Run",
-    "Python.diccionario_geringoso.executor": "Run",
-    "Python.documentacion.executor": "Debug",
-    "Python.esfera.executor": "Run",
-    "Python.figuritas.executor": "Run",
-    "Python.fileparse (1).executor": "Run",
-    "Python.fileparse.executor": "Run",
-    "Python.generala.executor": "Run",
-    "Python.geringoso.executor": "Run",
-    "Python.hipoteca.executor": "Run",
-    "Python.informe.executor": "Debug",
-    "Python.informe_final.executor": "Run",
-    "Python.informe_funciones.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.plot_bbin_vs_bsec.executor": "Run",
-    "Python.plotear_busqueda_secuencial.executor": "Run",
-    "Python.plotear_temperaturas.executor": "Run",
-    "Python.rebotes.executor": "Run",
-    "Python.solucion_de_errores.executor": "Run",
-    "Python.tabla_informe.executor": "Run",
-    "Python.tablamult.executor": "Run",
-    "Python.termometro.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "grid.search.filter.rows": "true",
-    "last_opened_file_path": "C:/Users/johan/PycharmProjects/programacion_1_ejercicios/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.arboles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bbin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buscar_precios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.busqueda_en_listas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camion_commandline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.costo_camion (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.costo_camion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionario_geringoso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.documentacion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.esfera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.figuritas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fileparse (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.fileparse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generala.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geringoso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hipoteca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.informe.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.informe_final.executor&quot;: &quot;Run&quot;,
+    &quot;Python.informe_funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.introduccion_pandas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plot_bbin_vs_bsec.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotear.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotear_busqueda_secuencial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotear_temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_walk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rebotes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.solucion_de_errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tabla_informe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tablamult.executor&quot;: &quot;Run&quot;,
+    &quot;Python.termometro.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;grid.search.filter.rows&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/johan/PycharmProjects/programacion_1_ejercicios/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios\data" />
@@ -95,30 +103,7 @@
       <recent name="C:\Users\johan\PycharmProjects\programacion_1_ejercicios" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.documentacion">
-    <configuration name="costo_camion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="programacion_1_ejercicios" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Diseño_y_Especificacion/costo_camion.py" />
-      <option name="PARAMETERS" value="../data/camion.csv" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.introduccion_pandas">
     <configuration name="documentacion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="programacion_1_ejercicios" />
       <option name="ENV_FILES" value="" />
@@ -134,52 +119,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Diseño_y_Especificacion/documentacion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fileparse (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="programacion_1_ejercicios" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_Organizacion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Organizacion/fileparse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fileparse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="programacion_1_ejercicios" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Diseño_y_Especificacion/fileparse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,6 +150,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="introduccion_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programacion_1_ejercicios" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_Pandas_y_matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_Pandas_y_matplotlib/introduccion_pandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="programacion_1_ejercicios" />
       <option name="ENV_FILES" value="" />
@@ -234,21 +196,67 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="plotear" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programacion_1_ejercicios" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_Pandas_y_matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_Pandas_y_matplotlib/plotear.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="random_walk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programacion_1_ejercicios" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_Pandas_y_matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_Pandas_y_matplotlib/random_walk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.documentacion" />
-      <item itemvalue="Python.costo_camion" />
-      <item itemvalue="Python.fileparse" />
-      <item itemvalue="Python.fileparse (1)" />
+      <item itemvalue="Python.introduccion_pandas" />
+      <item itemvalue="Python.plotear" />
+      <item itemvalue="Python.random_walk" />
       <item itemvalue="Python.informe_final" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.introduccion_pandas" />
+        <item itemvalue="Python.random_walk" />
+        <item itemvalue="Python.plotear" />
         <item itemvalue="Python.documentacion" />
         <item itemvalue="Python.informe_final" />
-        <item itemvalue="Python.fileparse" />
-        <item itemvalue="Python.costo_camion" />
-        <item itemvalue="Python.fileparse (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,15 +285,8 @@
       <workItem from="1711666126253" duration="2801000" />
       <workItem from="1711741874335" duration="1154000" />
       <workItem from="1711853169473" duration="5496000" />
-      <workItem from="1711885646045" duration="10663000" />
-    </task>
-    <task id="LOCAL-00022" summary="ejercicio 3.4 informe.py terminado">
-      <option name="closed" value="true" />
-      <created>1711117845907</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1711117845907</updated>
+      <workItem from="1711885646045" duration="28732000" />
+      <workItem from="1711975481327" duration="2190000" />
     </task>
     <task id="LOCAL-00023" summary="creando el archivo solucion_de_errores.py">
       <option name="closed" value="true" />
@@ -671,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711900470426</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="ejercicio 8.11 documentacion.py terminado">
+      <option name="closed" value="true" />
+      <created>1711902673451</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1711902673451</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +715,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio 5.16 arboles.py terminado" />
     <MESSAGE value="ejercicio 5.17 arboles.py terminado" />
     <MESSAGE value="ejercicio 5.18 arboles.py Preguntar al profe" />
     <MESSAGE value="ejercicio 6.1 arboles.py terminada" />
@@ -731,31 +739,23 @@
     <MESSAGE value="ejercicio 8.5 costo_camion.py terminado" />
     <MESSAGE value="ejercicio 8.5 y 8.6 informe_final.py y costo_camion.py terminado" />
     <MESSAGE value="ejercicio 8.7 y 8.8 informe_final.py y costo_camion.py terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 8.7 y 8.8 informe_final.py y costo_camion.py terminado" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/08_Diseño_y_Especificacion/documentacion.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ejercicio 8.11 documentacion.py terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 8.11 documentacion.py terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe.coverage" NAME="informe Coverage Results" MODIFIED="1711678386970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$buscar_precios.coverage" NAME="buscar_precios Coverage Results" MODIFIED="1711105462271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_Estructuras_y_Funciones" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tablamult.coverage" NAME="tablamult Coverage Results" MODIFIED="1711159058949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$introduccion_pandas.coverage" NAME="introduccion_pandas Coverage Results" MODIFIED="1711977579556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_Pandas_y_matplotlib" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711634784070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plot_bbin_vs_bsec.coverage" NAME="plot_bbin_vs_bsec Coverage Results" MODIFIED="1711662214865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$rebotes.coverage" NAME="rebotes Coverage Results" MODIFIED="1711890081866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$informe_funciones.coverage" NAME="informe_funciones Coverage Results" MODIFIED="1711633338929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$generala.coverage" NAME="generala Coverage Results" MODIFIED="1711540727142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$figuritas.coverage" NAME="figuritas Coverage Results" MODIFIED="1711558314782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
-    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$documentacion.coverage" NAME="documentacion Coverage Results" MODIFIED="1711902292221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$documentacion.coverage" NAME="documentacion Coverage Results" MODIFIED="1711902491313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$tabla_informe.coverage" NAME="tabla_informe Coverage Results" MODIFIED="1711157440345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_Datos" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$plotear.coverage" NAME="plotear Coverage Results" MODIFIED="1711914775594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_Pandas_y_matplotlib" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$geringoso.coverage" NAME="geringoso Coverage Results" MODIFIED="1711053388838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$main.coverage" NAME="main Coverage Results" MODIFIED="1711853708884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$costo_camion__1_.coverage" NAME="costo_camion Coverage Results" MODIFIED="1711892581776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
@@ -765,6 +765,7 @@
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$camion_commandline.coverage" NAME="camion_commandline Coverage Results" MODIFIED="1711127197309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Contenedores_y_Errores" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$arboles.coverage" NAME="arboles Coverage Results" MODIFIED="1711552776875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_Aleatoreidad" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse.coverage" NAME="fileparse Coverage Results" MODIFIED="1711896569928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_Diseño_y_Especificacion" />
+    <SUITE FILE_PATH="coverage/programacion_1_ejercicios$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1711925910819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_Pandas_y_matplotlib" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$esfera.coverage" NAME="esfera Coverage Results" MODIFIED="1711052316888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$hipoteca.coverage" NAME="hipoteca Coverage Results" MODIFIED="1711050537660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intro_a_python" />
     <SUITE FILE_PATH="coverage/programacion_1_ejercicios$fileparse__1_.coverage" NAME="fileparse (1) Coverage Results" MODIFIED="1711891575301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Organizacion" />
